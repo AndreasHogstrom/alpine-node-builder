@@ -2,7 +2,7 @@
 
 TAG=$1
 NAME=$2
-REPO="oznu/alpine-node"
+REPO="AndreasHogstrom/alpine-node-builder"
 
 # check tag does not already exist
 if curl -sfn "https://api.github.com/repos/$REPO/releases/tags/$TAG" > /dev/null; then
